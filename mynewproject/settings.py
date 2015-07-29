@@ -89,4 +89,32 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_URL = '/static/'
+# STATIC_ROOT ='/home/harsh/project/quikbuild/mynewproject/static'
+
+
+STATIC_URL ='/static/'
+
+# STATICFILES_DIRS = (
+#     '/home/django/exp/static',
+                    
+#     )
+
+STATICFILES_DIRS = (
+    BASE_DIR +'/static',
+                    
+    )
+
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+    )
+
+TEMPLATE_DIRS = (
+    BASE_DIR +'/Templates',    
+    )
+
+MEDIA_ROOT = BASE_DIR+'/media/'
+
+   #Your static file location  
+
+MEDIA_URL = '/media/'  # i am asuming you are working on localhost
