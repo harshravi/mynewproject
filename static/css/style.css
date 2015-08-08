@@ -672,9 +672,9 @@ a.lightbox img:hover {
   padding: 4em 0;
 }
 .top-games {
-   margin: 0;
+  margin: 0;
   background-color: #707386;
-  min-height: 420px;
+  height: 250px;
   padding: 2em 2em;
   text-align: left;
 }
