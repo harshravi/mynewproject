@@ -11,3 +11,11 @@ def home(request):
 def contact(request):
     ''' It serves the index file '''
     return render_to_response("contact.html",context_instance = RequestContext(request))    
+
+def aboutus(request):
+    ''' It serves the index file '''
+    return render_to_response("about.html",context_instance = RequestContext(request))  
+
+def faqs(request):
+    ''' It serves the index file '''
+    return render_to_response("faqs.html",context_instance = RequestContext(request))  

@@ -52,9 +52,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   font-weight: 600;
   src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
+.contact-top-one{
+  margin-bottom: 4em;
+  padding: 0 6em;
+}
+.top-contact{
+  padding:0!important;
+  margin:0!important;
+}
 .panel_list1 li a, .panel_list2 li a {
     color: #ffffff;
-    font-family: tahoma;
     font-size: 13px;
     line-height: 18px;
 }
@@ -68,6 +75,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     padding-right: 8px;
     padding-top: 6px;
 }
+.panel_list2 li,.panel_list1 li{
+  color:green;
+}
 .icon-text-benefits{
   float: none;
   text-align: left;
@@ -80,9 +90,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   text-transform: uppercase;
   font-family: "Bevan",cursive;
 }
+.banner.four {
+    background: transparent url("../images/faq-banner.jpg") no-repeat scroll center top / cover;
+    min-height: 300px;
+    width: 84.3%;
+    margin: 0px 7.9%;
+}
+.faqs-contact{
+  padding:0!important;
+}
 .icon-text-benefits div>a,.icon-text >a.read{ 
-  color: #FFF;
-  background: #707386 none repeat scroll 0% 0%;
+  background: #B0B3C0 none repeat scroll 0% 0%;
   transition: all 0.5s ease 0s;
   float: right;
   padding: 0.3em 1em;
@@ -186,7 +204,7 @@ nav a:focus {
   color: #fff;
   text-decoration: none;
   font-size: 1em;
-  padding: 1em 2.054em 1em 2.05em;
+  padding: 1em 3.188em 1em 3.188em;
   font-weight: 400;
   background:green;
 }
@@ -1503,13 +1521,26 @@ font-family: 'Bevan', cursive;
 }
 /*--about--*/
 .banner.two {
-  background: url(../images/banner-two.jpg) no-repeat center top;
+  background: transparent url("../images/23.jpg") no-repeat center top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height: 200px;
+  min-height: 418px;
+  width: 84.3%;
+  margin: 0px 7.9%;  
+}
+.banner.three {
+  background: transparent url("../images/about-us-banner.jpg") no-repeat center top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 150px;
+  width: 84.3%;
+  margin: 0px 7.9%;  
 }
 .about{
     padding: 4em 0 2em 0;
@@ -1660,9 +1691,9 @@ font-family: 'Bevan', cursive;
   background-color: #F4F4F4;
   text-align: center;
   font-size: 2em;
-   font-weight: 400;
-  color: #1f1e23;
-font-family: 'Bevan', cursive;
+  font-weight: 400;
+  color: green;
+  font-family: 'Bevan', cursive;
   margin-bottom: 2em;
 }
 .contact-main p {
@@ -1675,8 +1706,8 @@ font-family: 'Bevan', cursive;
 }
 .contact-top-one h4 {
   font-size: 1.4em;
-  color: #1f1e23;
-font-family: 'Bevan', cursive;
+  color: green;
+  font-family: 'Bevan', cursive;
   font-weight:400;
   margin: 0;
   text-align: left;
@@ -1738,13 +1769,13 @@ font-family: 'Bevan', cursive;
   text-transform: uppercase;
   padding: 0.7em 2em;
   display: inline-block;
-  background:#f43293;
+  background:green;
   margin-top: 1em;
   -webkit-appearance: none;
   float: left;
 }
 .sub-button input[type="submit"]:hover {
-	background:#1f1e23;
+	background:red;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
