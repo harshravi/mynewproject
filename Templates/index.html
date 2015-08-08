@@ -65,303 +65,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  </div>
 		</div> 
 		<!-- banner-bottom -->
-		<div class="banner">
-			<!-- Slider-starts-Here -->
-			<script src="{% static "js/responsiveslides.min.js" %}"></script>
-				<script>
-				    // You can also use "$(window).load(function() {"
-				    $(function () {
-				      // Slideshow 4
-				      $("#slider3").responsiveSlides({
-				        auto: true,
-				        pager:true,
-				        nav:false,
-				        speed: 500,
-				        namespace: "callbacks",
-				        before: function () {
-				          $('.events').append("<li>before event fired.</li>");
-				        },
-				        after: function () {
-				          $('.events').append("<li>after event fired.</li>");
-				        }
-				      });
-				
-				    });
-				  </script>
-			<!--//End-slider-script -->
-				<div  id="top" class="callbacks_container">
-					<ul class="rslides" id="slider3">
-						<li>
-							<img class="img-responsive" src="{% static "images/5.jpg" %}" alt="">
-						</li>
-						<li>
-						<img class="img-responsive" src="{% static "images/6.jpg" %}"alt="">
-						</li>
-						<li>
-						<img class="img-responsive" src="{% static "images/7.jpg" %}"alt="">
-						</li>
-						<li>
-							<img class="img-responsive" src="{% static "images/7.jpg" %}" alt="">
-						</li>
-						<li>
-						<img class="img-responsive" src="{% static "images/8.jpg" %}"alt="">
-						</li>
-						<li>
-						<img class="img-responsive" src="{% static "images/9.jpg" %}"alt="">
-						</li>
-						<li>
-							<img class="img-responsive" src="{% static "images/10.jpg" %}" alt="">
-						</li>
-						<li>
-						<img class="img-responsive" src="{% static "images/11.jpg" %}"alt="">
-						</li>
-						<li>
-							<img class="img-responsive" src="{% static "images/12.jpg" %}"alt="">
-						</li>						
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!--banner-bottom-->
-		<div class="banner-bottom">
-			<div class="container">
-			 <div class="banner-bot-grids">
-				 <div class="col-md-4 banner-grid one">
-				      <div class="col-md-3 icon">
-						<i class="glyphicon glyphicon-time"> </i>
-					</div>
-					<div class="icon-text-benefits">
-					    <h4>Benefits</h4>
-					    <div class="col-md-12" >
-							<ul class="panel_list1">
-								<li><a href="benefits.html">Low Cost</a></li>
-								<li><a href="benefits.html">Fast Implementation</a></li>
-								<li><a href="benefits.html">Structural Integrity</a></li>
-								<li><a href="benefits.html">Uniform Quality</a></li>
-								<li><a href="benefits.html">Simple Construction</a></li>
-							</ul>	
-							<ul class="panel_list2">
-								<li><a href="benefits.html">Low Cost</a></li>
-								<li><a href="benefits.html">Fast Implementation</a></li>
-								<li><a href="benefits.html">Structural Integrity</a></li>
-								<li><a href="benefits.html">Uniform Quality</a></li>
-								<li><a href="benefits.html">Simple Construction</a></li>
-							</ul>
-							<a class="read" href="about.html">Read More >></a>								
-						</div>
-
-					 </div>
-					  <div class="clearfix"> </div>
-				 </div>
-				 <div class="col-md-4 banner-grid two">
-				      <div class="col-md-3 icon">
-						<i class="glyphicon glyphicon-wrench"> </i>
-					</div>
-					<div class="col-md-9 icon-text">
-					     <h4>Technology</h4>
-						<p>Quik Build uses a prefabricated panel that consists of a super-insulated core material with an engineered steel fabric mesh to create a strong and durable monolithic structure.</p>
-						<a class="read" href="about.html">Read More >></a>	
-					 </div>
-					 <div class="clearfix"> </div>
-
-				 </div>
-				 <div class="col-md-4 banner-grid three">
-				     <div class="col-md-3 icon">
-						<i class="glyphicon glyphicon-briefcase"> </i>
-					</div>
-					<div class="col-md-9 icon-text">
-					     <h4>Reach us</h4>
-						<p>
-							47 Greams Road,<br>
-							Chennai.<br>
-							Tamilnadu – 600 006<br>
-							Phone : 044 2829 3296 / 0900 / 0901<br>
-							<!--website :<a href="http://www.beardsell.co.in/" target="_blank"> www.beardsell.co.in</a><br />-->
-						</p>
-					 </div>
-					  <div class="clearfix"> </div>
-				 </div>
-			 </div>
-			 <div class="clearfix"> </div>
+		<div class="banner two">
 		</div>
 	</div>
-	<!--latest-post-->
-		<!--top-games-section-->
-				  <div class="top-games-section">
-	 				 <div class="container">
-						<!--sreen-gallery-cursual-->
-						<div class="col-md-3 top-games">
-						      <h3>Top Workers</h3>
-							  <p>Why not give one of these popular Workers a look?</p>
+	<!--contact-->
+			<div class="contact">
+				<div class="container">
+					<h3>Contact Us</h3>
+						<div class="contact-top">
+							<div class="col-md-8 contact-top-right">
+								<form>
+									<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+									 <input type="text" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+									<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+									<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+									<div class="sub-button">
+										<input type="submit" value="SEND">
+									</div>
+								</form>
+							</div>
+							<div class="col-md-4 contact-top-left">
+							<div class="contact-top-one">
+								<h4>Address:</h4>
+									<h6>Newyork Still Road.
+									<span>756 gt globel Place,</span>
+										CD-Road,M 07 435.
+									</h6>
+							</div>
+							<div class="contact-top-one">
+								<h4>Phone:</h4>
+									<p>Telephone: +1 234 567 9871
+									<span>FAX: +1 234 567 9871</span>
+									</p>
+							</div>
+							<div class="contact-top-one">
+								<h4>E-mail:</h4>
+								<p><a href="mailto:info@example.com">mail@example.com</a></p>
+							</div>
 						</div>
-						<div class="col-md-9 g-views">
-							<ul id="flexiselDemo3">
-								<li>
-								<div class="biseller-column">
-								<a class="lightbox" href="#goofy">
-											   <img src="{% static "images/14.jpg" %}"/>
-											</a> 
-											<div class="lightbox-target" id="goofy">
-												  <img src="{% static "images/s1.jpg" %}"/>
-											   <a class="lightbox-close" href="#"> </a>
-
-												<div class="clearfix"> </div>
-											</div>
-								</div>
-							</li>
-							<li>
-								<div class="biseller-column">
-								<a class="lightbox" href="#goofy">
-											  <img src="{% static "images/15.jpg" %}"/>
-											</a> 
-											<div class="lightbox-target" id="goofy">
-												  <img src="{% static "images/s2.jpg" %}"/>
-											   <a class="lightbox-close" href="#"> </a>
-
-												<div class="clearfix"> </div>
-											</div>
-								</div>
-							</li>
-							<li>
-								<div class="biseller-column">
-								<a class="lightbox" href="#goofy">
-											  <img src="{% static "images/16.jpg" %}"/>
-											</a> 
-											<div class="lightbox-target" id="goofy">
-												  <img src="{% static "images/s3.jpg" %}"/>
-											   <a class="lightbox-close" href="#"> </a>
-
-												<div class="clearfix"> </div>
-											</div>
-								</div>
-							</li>
-							<li>
-								<div class="biseller-column">
-								<a class="lightbox" href="#goofy">
-												<img src="{% static "images/17.jpg" %}"/>
-											</a> 
-											<div class="lightbox-target" id="goofy">
-												<img src="{% static "images/s1.jpg" %}"/>
-											   <a class="lightbox-close" href="#"> </a>
-
-												<div class="clearfix"> </div>
-											</div>
-								</div>
-							</li>
-							<li>
-								<div class="biseller-column">
-								<a class="lightbox" href="#goofy">
-											  <img src="{% static "images/20.jpg" %}"/>
-											</a> 
-											<div class="lightbox-target" id="goofy">
-												  <img src="{% static "images/s2.jpg" %}"/>
-											   <a class="lightbox-close" href="#"> </a>
-
-												<div class="clearfix"> </div>
-											</div>
-								</div>
-							</li>
-						</ul>
-					<script type="text/javascript">
-						 $(window).load(function() {
-							$("#flexiselDemo3").flexisel({
-								visibleItems:3,
-								animationSpeed: 1000,
-								autoPlay: true,
-								autoPlaySpeed: 3000,    		
-								pauseOnHover: true,
-								enableResponsiveBreakpoints: true,
-								responsiveBreakpoints: { 
-									portrait: { 
-										changePoint:480,
-										visibleItems:3
-									}, 
-									landscape: { 
-										changePoint:640,
-										visibleItems:3
-									},
-									tablet: { 
-										changePoint:768,
-										visibleItems:3
-									}
-								}
-							});
-							
-						});
-					   </script>
-					   <script type="text/javascript" src="{% static "js/jquery.flexisel.js" %}"></script>
-					</div>   
-			</div>
-	</div>
-	<!--start-latest-->
-		<div class="latest-post">
-			<div class="container">
-			        <h3>Work Place</h3>
-			      <div class="grid">
-					<div class="col-md-6 l-grids">
-						<figure class="effect-bubba">
-							<img src="{% static "images/l1.jpg" %}" alt=""/>
-							<figcaption>
-								<h4>WorkLand</h4>
-								<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>
-								<div class="icon-links">
-									<a href="#"><i class="glyphicon glyphicon-paperclip"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-eye-open"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-heart-empty"></i></a>
-								</p>								
-							</figcaption>			
-						</figure>		
+						<div class="clearfix"> </div>
 					</div>
-					<div class="col-md-6 l-grids">
-						<figure class="effect-bubba">
-							<img src="{% static "images/l2.jpg" %}" alt=""/>
-							<figcaption>
-								<h4>WorkLand</h4>
-								<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>
-								<div class="icon-links">
-									<a href="#"><i class="glyphicon glyphicon-paperclip"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-eye-open"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-heart-empty"></i></a>
-								</p>								
-							</figcaption>			
-						</figure>		
+					<div class="contact-bottom">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48823.46166263757!2d-111.65905442395612!3d40.10960948006863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874db9d7dc27d89d%3A0x8b6bd315d9f959d0!2sSpanish+Fork%2C+UT%2C+USA!5e0!3m2!1sen!2sin!4v1430817838072" width="800" height="600" frameborder="0" style="border:0"></iframe>
 					</div>
-					 <div class="col-md-6 l-grids">
-						<figure class="effect-bubba">
-							<img src="{% static "images/l3.jpg" %}" alt=""/>
-							<figcaption>
-								<h4>WorkLand</h4>
-								<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>
-								<div class="icon-links">
-									<a href="#"><i class="glyphicon glyphicon-paperclip"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-eye-open"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-heart-empty"></i></a>
-								</p>								
-							</figcaption>			
-						</figure>		
-					</div>
-					 <div class="col-md-6 l-grids">
-						<figure class="effect-bubba">
-							<img src="{% static "images/l4.jpg" %}" alt=""/>
-							<figcaption>
-								<h4>WorkLand</h4>
-								<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>
-								<div class="icon-links">
-									<a href="#"><i class="glyphicon glyphicon-paperclip"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-eye-open"></i></a>
-									<a href="#"><i class="glyphicon glyphicon-heart-empty"></i></a>
-								</p>								
-							</figcaption>			
-						</figure>		
-					</div>
-					<div class="clearfix"> </div>
 				</div>
 			</div>
-		</div>
-
-
-<!--footer-->
-		<div class="footer text-center">
+	<!--/contact-->
+			<!--footer -->
+			<div class="footer text-center">
 				<div class="container">
 					<div class="footer-grids">
 						<div class="col-md-6 footer-text">  
