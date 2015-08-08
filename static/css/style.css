@@ -4,6 +4,46 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.panel_list1 li a, .panel_list2 li a {
+    color: #ffffff;
+    font-family: tahoma;
+    font-size: 13px;
+    line-height: 18px;
+}
+.panel_list1 {
+    float: left;
+    padding-left: 22px;
+    padding-top: 6px;
+}
+.panel_list2 {
+    float: right;
+    padding-right: 8px;
+    padding-top: 6px;
+}
+.icon-text-benefits{
+  float: none;
+  text-align: left;
+  padding: 0px;
+}
+.icon-text-benefits h4{
+  font-size: 1.3em;
+  color: #FFF;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Bevan",cursive;
+}
+.icon-text-benefits div>a,.icon-text >a.read{ 
+  color: #FFF;
+  background: #707386 none repeat scroll 0% 0%;
+  transition: all 0.5s ease 0s;
+  float: right;
+  padding: 0.3em 1em;
+  display: inline-block;
+  margin: 0.5em 0px 0px;
+  font-size: 0.9em;
+  font-family: "Bevan",cursive;
+  color:green;
+}
 html, body{
  font-family: 'Raleway', sans-serif;
  font-size: 100%;
@@ -29,6 +69,10 @@ input[type="button"],input[type="submit"],li.parallelogram{
 h1,h2,h3,h4,h5,h6{
 	margin:0;			   
 }	
+.logo-text > a {
+    float: left;
+    padding: 30px;
+} 
 p{
 	margin:0;
 }
@@ -43,21 +87,23 @@ label{
   text-align: center;  padding-bottom: 1em;
 }
 .head-nav{
- padding: 2em 0;
  position: relative;
 }
 .logo  a h1{
- color:#1f1e23;
+ color:red;
  font-size:2.8em;
  font-weight: 400;
  font-family: 'Bevan', cursive;
 }
+.sub-title{
+  color:gray;
+}
 .logo  a h1:hover{
- color:#1f1e23;
+ color:#ED1C24;
  text-decoration:none;
 }
 .logo  a h1 span{
- color:#f43293;
+ color:green;
 }
 .top-menu {
   position: absolute;
@@ -92,15 +138,15 @@ nav a:focus {
   color: #fff;
   text-decoration: none;
   font-size: 1em;
-  padding: 1em 1.89em;
+  padding: 1em 2.054em 1em 2.05em;
   font-weight: 400;
-  background:#707386;
+  background:green;
 }
-.top-menu ul li:nth-child(6) {
+.top-menu ul li:nth-child(9) {
  border:none;
 }
 .top-menu ul li a:hover,.top-menu ul li a.active{
-  background:#f43293;
+  background:red;
 }
 @media (max-width:768px){
 	span.menu{
@@ -311,15 +357,17 @@ nav a:focus {
   float: none;
 }
 .rslides img {
-  height: auto;
+  height: 455px;
   border: 0;
+  width: 84.3%;
+  margin: 0px 7.9%;
 }
 .callbacks_tabs{
   list-style: none;
   position: absolute;
   top: 86.5%;
   z-index: 999;
-  right: 45%;
+  right: 35%;
   padding: 0em 0.6em 1em 0.3em;
   margin: 0;
 }
@@ -358,19 +406,22 @@ nav a:focus {
 }
 /*--banner-grids--*/
 .banner-grid.one,.banner-grid.two,.banner-grid.three {
-  padding: 2em;
+  padding: 1em;
   margin: 0;
-  background: #707386
+  background: gray none repeat scroll 0% 0%;
+  min-height: 230px;
 }
+
 .icon {
   float: left;
 }
 .icon-text {
-    float: right;
+  float: right;
   text-align: left;
+  padding:0;
 }
 .banner-grid.two {
- background:#f43293;
+ background:rgb(115, 152, 127) none repeat scroll 0% 0%;
 }
 .banner-grid.three {
     background:#1f1e23;
@@ -500,6 +551,7 @@ width:100%;
 -o-transition: .5s ease-in-out;
 transition: .5s ease-in-out;
 border: 3px solid #707386;
+height:250px;
 }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
@@ -622,7 +674,7 @@ a.lightbox img:hover {
 .top-games {
    margin: 0;
   background-color: #707386;
-  min-height: 420px;
+  height: 250px;
   padding: 2em 2em;
   text-align: left;
 }
@@ -1710,7 +1762,7 @@ a.read {
   -ms-transition: 0.5s all;
 }
 a.read:hover{
- background:#f43293;
+ background:#ffffff;
 }
 .support input[type="text"] {
   width: 76%;
@@ -1826,7 +1878,7 @@ a.read:hover{
 	  }
 	   .callbacks_tabs {
 		  top: 81.5%;
-		  right: 41%;
+		  right: 35%;
 		  padding: 0em 0.6em 1em 0.3em;
 		}
 		.support input[type="text"] {

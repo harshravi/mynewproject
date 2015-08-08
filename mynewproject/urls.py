@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$',home),
     url(r'^home/$',home),
+    url(r'^contact$',contact),    
     
     
 )+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -7,3 +7,7 @@ from django.template import RequestContext
 def home(request):
     ''' It serves the index file '''
     return render_to_response("index.html",context_instance = RequestContext(request))
+
+def contact(request):
+    ''' It serves the index file '''
+    return render_to_response("contact.html",context_instance = RequestContext(request))    
