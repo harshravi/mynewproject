@@ -90,8 +90,47 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   text-transform: uppercase;
   font-family: "Bevan",cursive;
 }
+.holder_left span{
+  font-family: "Raleway",sans-serif;
+  font-weight: normal;
+  color: green;
+  font-size: 20px;
+  background: transparent url("../images/bullet2.gif") no-repeat scroll left 2px;
+}
+.border-left {
+  border-right: 2px dashed #008000;
+  border-bottom: 2px dashed #008000;
+  min-height: 650px;
+}
+.border-left h3{
+  margin-bottom:1em!important;
+}
+.border-right h3{
+  margin-bottom:1em!important;
+}
+.border-right{
+  border-bottom: 2px dashed #008000;
+  min-height: 650px;
+}
+.benefits-content{
+  margin-bottom:20px;
+}
+.holder_left p {
+    font-family: "Raleway",sans-serif;
+    font-weight: normal;
+    /*color: #008000;*/
+    font-size: 15px;
+    background: transparent url("../images/bullet2.gif") no-repeat scroll left 2px;
+    padding: 5px 15px;
+}
 .banner.four {
     background: transparent url("../images/faq-banner.jpg") no-repeat scroll center top / cover;
+    min-height: 300px;
+    width: 84.3%;
+    margin: 0px 7.9%;
+}
+.banner.five {
+    background: transparent url("../images/benefits.png") no-repeat scroll center top / cover;
     min-height: 300px;
     width: 84.3%;
     margin: 0px 7.9%;
@@ -475,7 +514,7 @@ nav a:focus {
   padding: 1em;
   margin: 0;
   background: gray none repeat scroll 0% 0%;
-  min-height: 230px;
+  min-height: 241px;
 }
 
 .icon {

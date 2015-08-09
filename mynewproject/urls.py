@@ -17,7 +17,8 @@ urlpatterns = patterns('',
     url(r'^home/$',home),
     url(r'^contact/$',contact), 
     url(r'^aboutus/$',aboutus),    
-    url(r'^faqs/$',faqs), 
+    url(r'^faqs/$',faqs),
+    url(r'^benefits/$',benefits), 
     
     
 )+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

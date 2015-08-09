@@ -18,4 +18,8 @@ def aboutus(request):
 
 def faqs(request):
     ''' It serves the index file '''
-    return render_to_response("faqs.html",context_instance = RequestContext(request))  
+    return render_to_response("faqs.html",context_instance = RequestContext(request)) 
+
+def benefits(request):
+    ''' It serves the index file '''
+    return render_to_response("benefits.html",context_instance = RequestContext(request))      
