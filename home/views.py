@@ -22,4 +22,8 @@ def faqs(request):
 
 def benefits(request):
     ''' It serves the index file '''
-    return render_to_response("benefits.html",context_instance = RequestContext(request))      
+    return render_to_response("benefits.html",context_instance = RequestContext(request))   
+
+def technology(request):
+    ''' It serves the index file '''
+    return render_to_response("technology.html",context_instance = RequestContext(request))         
