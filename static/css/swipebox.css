@@ -51,8 +51,10 @@
   display: inline-block;
   max-height: 100%;
   max-width: 100%;
-  width: auto;
-  height: auto;
+  height: 412px;
+  width: 621px;  
+/*  width: auto;
+  height: auto;*/
   vertical-align: middle;
 }
 

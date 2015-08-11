@@ -52,6 +52,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   font-weight: 600;
   src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
+.font-change{
+  font-family: initial;
+  font-style: normal;
+}
 .contact-top-one{
   margin-bottom: 4em;
   padding: 0 6em;
@@ -513,7 +517,7 @@ nav a:focus {
 .banner-grid.one,.banner-grid.two,.banner-grid.three {
   padding: 1em;
   margin: 0;
-  background: gray none repeat scroll 0% 0%;
+  background: rgb(115, 152, 127) none repeat scroll 0% 0%;
   min-height: 241px;
 }
 .contactno{color:green;}
@@ -526,7 +530,7 @@ nav a:focus {
   padding:0;
 }
 .banner-grid.two {
- background:rgb(115, 152, 127) none repeat scroll 0% 0%;
+ background:#808080 none repeat scroll 0% 0%;
 }
 .banner-grid.three {
     background:#1f1e23;
@@ -780,14 +784,14 @@ a.lightbox img:hover {
   margin: 0;
   background-color: #707386;
   height: 250px;
-  padding: 2em 2em;
+  padding: 1.5em;
   text-align: left;
 }
 .top-games  h3 {
-  font-size: 2.3em;
+  font-size: 2.1em;
   color: #fff;
   line-height: 1.4em;
-  text-align: left;
+  text-align: center;
   font-family: 'Bevan', cursive;
     font-weight: 400;
 }
@@ -995,8 +999,10 @@ h1.t-button,h2.t-button,h3.t-button,h4.t-button,h5.t-button {
 	width:100%;
 }
 .l-grids figure img {
-	position: relative;
-	display: block;
+  position: relative;
+  display: block;
+  height: 300px;
+  width: 375px;
 }
 
 .l-grids figure figcaption {
@@ -1253,6 +1259,8 @@ img.zoom-img {
 	-moz-transform: scale(1, 1);
 	-moz-transition-timing-function: ease-out;
 	-moz-transition-duration: 250ms;
+  height: 300px;
+  width: 375px;
 }
 .post-details img {
   width: 100%;
@@ -1702,7 +1710,7 @@ font-family: 'Bevan', cursive;
   background-color: #F4F4F4;
   text-align: center;
   font-size: 2em;
-  color: #1f1e23;
+  color: green;
   font-family: 'Bevan', cursive;
   margin-bottom: 1.8em;
    font-weight: 400;
@@ -1842,7 +1850,7 @@ font-family: 'Bevan', cursive;
 /*--footer--*/
 .footer {
    background: #29292A;
-    padding: 2em 0 1em;
+   /* padding: 2em 0 1em;*/
   text-align:left;
 }
 .footer-grids h3{
@@ -1916,7 +1924,7 @@ a.read:hover{
 }
 .copy {
   text-align:center;
-    border-top: 1px ridge rgba(50, 50, 50, 0.92);
+   /* border-top: 1px ridge rgba(50, 50, 50, 0.92);*/
 	  padding-top: 1em;
   }
 .copy p {
