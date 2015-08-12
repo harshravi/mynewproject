@@ -26,4 +26,8 @@ def benefits(request):
 
 def technology(request):
     ''' It serves the index file '''
-    return render_to_response("technology.html",context_instance = RequestContext(request))         
+    return render_to_response("technology.html",context_instance = RequestContext(request))        
+
+def project(request):
+    ''' It serves the index file '''
+    return render_to_response("project.html",context_instance = RequestContext(request))       

@@ -134,6 +134,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     width: 84.3%;
     margin: 0px 7.9%;
 }
+.banner.six {
+    background: transparent url("../images/fab-banner6.jpg") no-repeat scroll center top / cover;
+    min-height: 525px;
+    width: 84.3%;
+    margin: 0px 7.9%;
+}
+.project-contact{
+  min-height: 150px;
+}
 .banner.five {
     background: transparent url("../images/benefits.png") no-repeat scroll center top / cover;
     min-height: 300px;
@@ -467,7 +476,7 @@ nav a:focus {
   float: none;
 }
 .rslides img {
-  height: 455px;
+  height: 350px;
   border: 0;
   width: 84.3%;
   margin: 0px 7.9%;
@@ -1958,7 +1967,7 @@ a.read:hover{
 	  margin-top:0em;
 	}
 	.top-games-section {
-	padding: 4em 0 2em 0;
+	padding: 4em 0 0 0;
 	}
 }
 @media (max-width:1366px){

@@ -20,6 +20,7 @@ urlpatterns = patterns('',
     url(r'^faqs/$',faqs),
     url(r'^benefits/$',benefits), 
     url(r'^technology/$',technology),
+    url(r'^project/$',project),
     
     
 )+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
