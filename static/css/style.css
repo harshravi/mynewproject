@@ -143,6 +143,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .project-contact{
   min-height: 150px;
 }
+.aboutus_content{
+  font-size: 0.9525em;
+}
+.contact-top-content h4{
+  font-size:1em!important;
+}
 .banner.five {
     background: transparent url("../images/benefits.png") no-repeat scroll center top / cover;
     min-height: 300px;
