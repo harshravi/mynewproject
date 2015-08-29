@@ -21,6 +21,7 @@ urlpatterns = patterns('',
     url(r'^benefits/$',benefits), 
     url(r'^technology/$',technology),
     url(r'^project/$',project),
+    url(r'^send_email$',send_email),
     
     
 )+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

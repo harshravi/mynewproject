@@ -140,6 +140,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     width: 84.3%;
     margin: 0px 7.9%;
 }
+.banner.seven {
+    background: transparent url("../images/fab-banner7.jpg") no-repeat scroll center top / cover;
+    min-height: 450px;
+    width: 84.3%;
+    margin: 0px 7.9%;
+}
 .project-contact{
   min-height: 150px;
 }
@@ -482,19 +488,19 @@ nav a:focus {
   float: none;
 }
 .rslides img {
-  height: 350px;
+  height: 455px;
   border: 0;
   width: 84.3%;
   margin: 0px 7.9%;
 }
 .callbacks_tabs{
-  list-style: none;
+  list-style: outside none none;
   position: absolute;
-  top: 86.5%;
+  top: 88.5%;
   z-index: 999;
-  right: 35%;
+  right: 40%;
   padding: 0em 0.6em 1em 0.3em;
-  margin: 0;
+  margin: 0px;
 }
 .callbacks_tabs li{
    display: inline-block;
